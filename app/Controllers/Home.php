@@ -9,6 +9,11 @@ class Home extends BaseController
 		return view('home_page');
 	}
 
+	public function coba()
+	{
+		echo $this->nama;
+	}
+
 	//--------------------------------------------------------------------
 
 }
