@@ -15,7 +15,7 @@
           </tr>
         </thead>
         <tbody>
-          <?= $i = 1; ?>
+          <? $i = 1; ?>
           <?php foreach ($komik as $k) : ?>
             <tr>
               <th scope="row"><?= $i++; ?></th>
